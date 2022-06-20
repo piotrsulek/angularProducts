@@ -1,0 +1,32 @@
+.settings
+.project
+.classpath
+/**/.DS_Store
+/target/
+.idea/
+*.iml
+classes/
+coverage/
+.gradle/
+/build/
+out/
+.factorypath
+.run/
+
+themes/myworld/assets/fonts/iconFont/*
+themes/dodax/assets/fonts/iconFont/*
+
+themes/myworld/styles/fonts/_iconFontGlobal.scss
+themes/dodax/styles/fonts/_iconFontGlobal.scss
+
+src/main/resources/templates/myworld/modules
+src/main/resources/templates/dodax/modules
+
+yarn.lock
+src/main/resources/static
+
+# Node plugins exclusions
+node_modules
+
+# Exclude dist file, has to be build on jenkins
+dist
